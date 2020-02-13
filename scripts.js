@@ -54,6 +54,7 @@ async function doMath() {
             console.log(`The final result is ${num}.`)
 
     } catch (error) {
+        error = new Error ('oops');
         console.log(error);
     }
 }
